@@ -45,3 +45,27 @@
   justify-content: flex-start;
 }
 
+.section-three {
+  background-color: #351111;
+  color: #852c2c;
+  font-family: Helvetica;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+}
+
+.my-portfolio {
+  width: 20%;
+}
+
+.portfolios {
+  height: 100vh;
+  display: grid;
+  width: 40%;
+  margin: 10px 0px 10px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  align-content: flex-start;
+}
+

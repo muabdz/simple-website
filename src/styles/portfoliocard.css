@@ -1,0 +1,29 @@
+.card {
+    height: fit-content;
+    padding-bottom: 100%;
+    padding-right: 100%;
+    display: block;
+    padding: 1rem;
+    background-color: darkred;
+    flex-direction: column;
+    color: burlywood;
+    text-align: left;
+    position: relative;
+}
+
+.icon {
+    /* position: relative; */
+    margin: 10px;
+}
+
+.title {
+    color: white;
+    /* position: relative; */
+    display: block;
+    margin: 10px;
+}
+.description {
+    color: white;
+    /* position: relative; */
+    margin: 10px;
+}
