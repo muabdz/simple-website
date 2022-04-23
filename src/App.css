@@ -47,7 +47,7 @@
 
 .section-three {
   background-color: #351111;
-  color: #852c2c;
+  color:lightcoral;
   font-family: Helvetica;
   display: flex;
   align-items: center; 
@@ -67,5 +67,42 @@
   grid-template-rows: auto auto;
   grid-gap: 25px;
   align-content: flex-start;
+}
+
+.services {
+  width: 30%;
+  text-align: left;
+  padding: 25px 5% 25px 5%;
+  align-items: center; 
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.services h3 {
+  margin-top: 0%;
+  color: white;
+}
+
+.services h4 {
+  text-align: left;
+  color: burlywood;
+}
+
+.services p {
+  margin: 0;
+  display: block;
+}
+
+.services span {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.services span button {
+  color: wheat;
+  border-color: wheat;
 }
 
