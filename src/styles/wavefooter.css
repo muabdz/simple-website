@@ -1,0 +1,13 @@
+.wave-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: auto;
+    position: relative;
+}
+
+.wave {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: transparent;
+}

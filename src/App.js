@@ -5,6 +5,7 @@ import TaglineText from './components/TaglineText';
 import ParagraphText from './components/ParagraphText';
 import { Button } from '@mui/material';
 import { ChevronRight } from '@mui/icons-material';
+import WaveFooter from './components/WaveFooter';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Button variant="contained" endIcon={<ChevronRight/>} style={{textTransform: 'none'}}>
               Request a Quote
             </Button>
+            <WaveFooter />
         </div>
 
       </body>
