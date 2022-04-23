@@ -4,7 +4,7 @@
     padding-right: 100%;
     display: block;
     padding: 1rem;
-    background-color: darkred;
+    background-color:brown;
     flex-direction: column;
     color: burlywood;
     text-align: left;
@@ -14,10 +14,11 @@
 .icon {
     /* position: relative; */
     margin: 10px;
+    color: lightcoral;
 }
 
 .title {
-    color: white;
+    color:wheat;
     /* position: relative; */
     display: block;
     margin: 10px;
