@@ -1,0 +1,12 @@
+.action {
+    padding-left: 0.5rem;
+    display: flex;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+.action.chevron {
+    margin-bottom: auto;
+}
