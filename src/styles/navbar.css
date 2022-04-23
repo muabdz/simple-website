@@ -11,9 +11,8 @@
 }
 
 .nav-buttons {
-  padding-left: 1rem;
   display: flex;
-  align-self: flex-start center;
+  margin-left: 1rem;
 }
 
 .end-buttons {
