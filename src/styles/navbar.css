@@ -1,10 +1,22 @@
 .navigation {
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    padding: 0.5rem 0rem 0.5rem 20rem;
-    background-color: #fff;
-    color: black;
-  }
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  justify-content: space-between;
+}
+
+.nav-buttons {
+  padding-left: 1rem;
+  display: flex;
+  align-self: flex-start center;
+}
+
+.end-buttons {
+  display: flex;
+  margin-right: 2rem;
+}

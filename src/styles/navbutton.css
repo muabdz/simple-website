@@ -6,6 +6,7 @@ button {
     background: none;
     border: none;
     outline: none;
+    font-size: large;
 }
 .action.chevron {
     margin-bottom: auto;
