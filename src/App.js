@@ -23,7 +23,11 @@ function App() {
             </Button>
             <WaveFooter />
         </div>
-
+        <div className='section-two'>
+            <TitleText text="Catering should be an experience" />
+            <TaglineText text="We only use the finest and freshest ingredients." />
+            <ParagraphText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+        </div>
       </body>
     </div>
   );
