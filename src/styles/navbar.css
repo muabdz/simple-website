@@ -5,10 +5,11 @@
   height: 60px;
   width: 100%;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background-color: white;
   color: black;
   justify-content: space-between;
 }
+
 
 .nav-buttons {
   display: flex;
@@ -18,4 +19,73 @@
 .end-buttons {
   display: flex;
   margin-right: 2rem;
+}
+
+.hamburger {
+  display: none;
+  margin-right: 2rem;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu-expanded {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
+
+  .end-buttons {
+    margin-right: 0;
+  }
+
+  .end-buttons input {
+    display: none;
+  }
+
+  .navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    justify-content: flex-end;
+  }
+
+  .nav-menu {
+    position: relative;
+    display: none;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .nav-menu-expanded {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
 }
