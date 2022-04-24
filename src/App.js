@@ -7,6 +7,8 @@ import { Button } from '@mui/material';
 import { ChevronRight, HistoryEdu, Inventory, ThumbUp, Widgets } from '@mui/icons-material';
 import WaveFooter from './components/WaveFooter';
 import PortfolioCard from './components/PortfolioCard';
+import ReactStickyBox from 'react-sticky-box';
+import StickyMenu from './components/StickyMenu';
 
 function App() {
 
@@ -20,6 +22,9 @@ function App() {
         <Navbar />
       </header>
       <body>
+        <ReactStickyBox className="sticky-menu">
+          <StickyMenu />
+        </ReactStickyBox>
         <div className='section-one'>
             <TitleText text={sectionTitle} />
             <TaglineText text={sectionTagline} />

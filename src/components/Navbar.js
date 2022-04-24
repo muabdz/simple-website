@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavButton from "./NavButton";
 import "../styles/navbar.css"
 import { ShoppingCart, Search, Menu} from "@mui/icons-material";
+import StickyMenu from './StickyMenu';
 
 export default function Navbar() {
 
@@ -32,6 +33,7 @@ export default function Navbar() {
             <NavButton text="Demos" />
             <NavButton text="Pages" />
             <NavButton text="Portfolio" />
+            <StickyMenu className="sticky"/>
         </div>
     </nav>
 }
