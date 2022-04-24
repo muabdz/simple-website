@@ -106,3 +106,29 @@
   border-color: wheat;
 }
 
+@media screen and (max-width: 768px) {
+  .section-three {
+    flex-direction: column;
+  }
+
+  .portfolios {
+    height: fit-content;
+    display: grid;
+    width: 80%;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 25px;
+    align-content: flex-start;
+  }
+
+  
+  .services {
+    width: 80%;
+    text-align: left;
+    align-items: center; 
+    justify-content: center;
+    align-self: center;
+  }
+  
+}
+
