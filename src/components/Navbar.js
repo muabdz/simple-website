@@ -10,7 +10,7 @@ export default function Navbar() {
     return <nav className="navigation">
         <div className="nav-section">
             <div className="nav-buttons">
-                <NavButton text="Demos" />
+                <NavButton text="Demos" onClick={ () => refreshPage()} />
                 <NavButton text="Pages" />
                 <NavButton text="Portfolio" />
             </div>
@@ -34,4 +34,8 @@ export default function Navbar() {
             <NavButton text="Portfolio" />
         </div>
     </nav>
+}
+
+function refreshPage() {
+    window.location.reload();
 }
